@@ -22,5 +22,19 @@ class ItcJenkinsApplicationTests {
 		assertEquals(true, true);
 		
 	}
+	
+	@Test
+	void myTest() {
+		
+		logger.info("**************** test case executed *********************");
+		logger.info("**************** test case executed1 *********************");
+		logger.info("**************** test case executed2 *********************");
+		logger.info("**************** test case executed3 *********************");
+		assertEquals(true, true);
+		
+	}
+	
+	
+	
 
 }
